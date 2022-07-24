@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+body {
+    font-family: poppins;
+}
+
+.nav {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:0px 5px;
+}
+.brand {
+    color:rgb(51, 216, 222);
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.nav-links {
+   display:flex;
+   list-style-type: none;
+}
+
+.link {
+    color:black;
+    margin:0px 8px;
+    text-decoration: none;
+}
+
+.search {
+    padding: 10px 1000px 10px 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.heading h1 {
+    margin-top: 20px;
+    font-weight: 900;
+    color: rgb(29, 135, 138);
+}
+
+.address {
+    margin-top: 0px;
+}
+.img {
+    height: 400px;
+    width: 100%;
+    margin: 0px;
+    object-fit: cover;
+}
+
+.position {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    color: black;
+}
+
+.ver {
+    font-size: 55px;
+    font-weight: 700;
+    margin: 280px 40px;
+    font-size: 25px;
+    color: white;
+    }
+
+.ver1 {
+    margin: 320px 20px;
+    font-size: 70px;
+    font-family: poppins;
+    color: black;
+}
+
+.ver2 {
+    margin: 450px 20px;
+    font-size: 30px;
+    font-family: poppins;
+    width: 700px;
+}
+
+
+.Title {
+    width: 150px;
+    background-color: #00CED1;
+    border-radius: 10px;
+    padding: 0.5px;
+}
+
+.card {
+    box-shadow: 0 0 10px lightgray;
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 16px;
+    height: 80%;
+    flex-grow: 1;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.buy-btn {
+    justify-content: center;
+    background-color: #00CED1;
+    color: white;
+    padding: 7px 18px;
+    text-decoration: none;
+    border-radius: 66px;
+    display: inline-block;
+    margin: 4px 1px 4px 0;
+}
+
+.food-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .edit {
+text-decoration: line-through;
+    color: lightgray;
+    }
